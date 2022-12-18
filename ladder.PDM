@@ -1,0 +1,142 @@
+[Root]
+Most Recent Package=Chess Ladder Setup
+
+
+[Package|Chess Ladder Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\@\a_chess\setup
+
+[Package|Chess Ladder Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Chess Ladder Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Chess Ladder Setup|Files Found]
+
+[Package|Chess Ladder Setup|Files Released]
+players.xls=
+ladder.doc=
+
+[Package|Chess Ladder Setup|Missing Dependency Information]
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=
+
+[Package|Chess Ladder Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\msflxgrd.ocx=
+C:\Windows\SysWOW64\msflxgrd.ocx=
+
+[Package|Chess Ladder Setup|Files Added]
+
+[Package|Chess Ladder Setup|Files Removed]
+f:\archive\a_chess\ladder program\ladder.exe=
+
+[Package|Chess Ladder Setup|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\WINDOWS\SYSTEM32\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM32\STDOLE2.TLB=Yes
+D:\@\a_chess\Bughouse\ladder.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=Yes
+C:\Windows\SysWOW64\msflxgrd.ocx=Yes
+C:\Windows\SysWOW64\MSWINSCK.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Chess Ladder Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Chess Ladder Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Chess Ladder Setup|Install Locations]
+C:\mydoc\chess_club\ladder\ladder.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\mydoc\chess_club\ladder\ladder.doc=$(AppPath)
+C:\mydoc\chess_club\ladder\Players.xls=$(AppPath)
+C:\mydoc\chess_club\ladder Program\ladder.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\a_chess\rated_ladder\ladder.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\@\a_chess\Bughouse\ladder.exe=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\msflxgrd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Chess Ladder Setup|Configure Shared Files]
+Applicable=Yes
+C:\mydoc\chess_club\ladder\ladder.exe=No
+C:\mydoc\chess_club\ladder\ladder.doc=No
+C:\mydoc\chess_club\ladder\Players.xls=No
+C:\mydoc\chess_club\ladder Program\ladder.exe=No
+C:\a_chess\rated_ladder\ladder.exe=No
+D:\@\a_chess\Bughouse\ladder.exe=No
+
+[Package|Chess Ladder Setup|Distribution]
+Type=single
+Size=1.44 MB
+Title=Ladder
+
+[Package|Chess Ladder Setup|IconGroups]
+Group0=Ladder
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Chess Ladder Setup|Ladder]
+Icon1=ladder.exe
+Title1=Ladder
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ladder.doc
+Title2=Word Lables
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3=Players.xls
+Title3=Players for Excel
+StartIn3=$(AppPath)
+Key3=Icon11
+
+[Package|Chess Ladder Setup|Package]
+PackageFolder=d:\@\a_chess\setup
+ProjectFolder=D:\@\a_chess\Bughouse
+ServerSideCab=
+File1=d:\@\a_chess\setup\setup.exe
+File2=d:\@\a_chess\setup\Setup.Lst
+File3=d:\@\a_chess\setup\ladder.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
