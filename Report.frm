@@ -197,20 +197,25 @@ On Error Resume Next
     my_text$ = EntryLine.Text
     reports(1 - Me.Tag)!EntryLine.Text = EntryLine.Text
     retVal = parse_entry(my_text$, players, scores, quick_entry)
-    
-    If (players(3) > 0) Then
-        Player(0).Caption = get_fullName$(p2r(players(3))) + "(" + LTrim$(Str(players(3))) + ")"
+    'player(2)is blank
+    If (players(3) > 0) Then 'fist player on team 2
+        Player(0).Caption = get_fullName$(p2r(players(3))) + "(" + LTrim$(Str(players(3))) + ")" '+ Chr$(13) + get_fullName$(p2r(players(2))) + "(" + LTrim$(Str(players(2))) + ")"
     Else
         Player(0).Caption = ""
     End If
     If (players(0) > 0) Then
-        Player(2).Caption = get_fullName$(p2r(players(0))) + "(" + LTrim$(Str(players(0))) + ")"
+        Player(2).Caption = get_fullName$(p2r(players(0))) + "(" + LTrim$(Str(players(0))) + ")" '+ Chr$(13) '+ Player(2).Caption
     Else
         Player(2).Caption = ""
     End If
-    Player(1).Caption = ""
+    If (players(4) > 0) Then 'second player on team 2
+        Player(0).Caption = Player(0).Caption + Chr$(13) + get_fullName$(p2r(players(4))) + "(" + LTrim$(Str(players(4))) + ")"
+    End If
+    If (players(1) > 0) Then
+        Player(2).Caption = Player(2).Caption + Chr$(13) + get_fullName$(p2r(players(1))) + "(" + LTrim$(Str(players(1))) + ")"
+    End If
     If Len(my_text$) < 2 Then Exit Sub
-    Player(1).Caption = Player(1).Caption + Mid$(display_string, scores(0) + 1, 1)
+    Player(1).Caption = Mid$(display_string, scores(0) + 1, 1)
     Player(1).Caption = Player(1).Caption + Mid$(display_string, scores(1) + 1, 1)
     If retVal > 0 Then
         Me.Caption = "Valid Entry"

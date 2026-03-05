@@ -2,13 +2,13 @@ VERSION 5.00
 Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "MSFLXGRD.OCX"
 Begin VB.Form Ladder_Form 
    Caption         =   "Bughouse"
-   ClientHeight    =   6255
+   ClientHeight    =   7155
    ClientLeft      =   7395
    ClientTop       =   3255
-   ClientWidth     =   11550
+   ClientWidth     =   15765
    LinkTopic       =   "Ladder"
-   ScaleHeight     =   6255
-   ScaleWidth      =   11550
+   ScaleHeight     =   7155
+   ScaleWidth      =   15765
    Begin VB.TextBox cmd 
       Height          =   375
       Left            =   6720
@@ -613,7 +613,7 @@ End Sub
 
 Private Sub Enable_admin_functions_Click()
     Dim i As Integer
-    ' On Error GoTo enable_admin_error_resume '
+    On Error GoTo enable_admin_error_resume '
     MNU_ADMIN.Visible = False
     password_set = 0
     If UCase$(Left$(Enable_admin_functions.Caption, 4)) = "DISA" Then
